@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.zhang.thresh</groupId>
+        <artifactId>thresh-cloud</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../thresh-cloud/pom.xml</relativePath>
+    </parent>
+
+    <groupId>com.zhang.thresh</groupId>
+    <artifactId>thresh-common</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>thresh-common</name>
+    <description>通用模块</description>
+    <packaging>pom</packaging>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+
+    <modules>
+        <module>thresh-common-core</module>
+        <module>thresh-common-redis-starter</module>
+        <module>thresh-common-datasource-starter</module>
+        <module>thresh-common-security-starter</module>
+        <module>thresh-common-doc</module>
+        <module>thresh-common-doc-gateway-starter</module>
+        <module>thresh-common-doc-starter</module>
+        <module>thresh-common-logging-starter</module>
+    </modules>
+
+
+</project>

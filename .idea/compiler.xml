@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thresh-common-logging-starter" />
+        <module name="thresh-common-doc" />
+        <module name="thresh-common-doc-gateway-starter" />
+        <module name="thresh-common-core" />
+        <module name="thresh-common-datasource-starter" />
+        <module name="thresh-common-redis-starter" />
+        <module name="thresh-common-security-starter" />
+        <module name="thresh-common-doc-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="thresh-cloud" target="1.8" />
+      <module name="thresh-common" target="1.8" />
+      <module name="thresh-common-core" target="1.8" />
+      <module name="thresh-common-datasource-starter" target="1.8" />
+      <module name="thresh-common-doc" target="1.8" />
+      <module name="thresh-common-doc-gateway-starter" target="1.8" />
+      <module name="thresh-common-doc-starter" target="1.8" />
+      <module name="thresh-common-logging-starter" target="1.8" />
+      <module name="thresh-common-redis-starter" target="1.8" />
+      <module name="thresh-common-security-starter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="thresh-cloud" options="-parameters" />
+      <module name="thresh-common" options="-parameters" />
+      <module name="thresh-common-core" options="-parameters" />
+      <module name="thresh-common-datasource-starter" options="-parameters" />
+      <module name="thresh-common-doc" options="-parameters" />
+      <module name="thresh-common-doc-gateway-starter" options="-parameters" />
+      <module name="thresh-common-doc-starter" options="-parameters" />
+      <module name="thresh-common-logging-starter" options="-parameters" />
+      <module name="thresh-common-redis-starter" options="-parameters" />
+      <module name="thresh-common-security-starter" options="-parameters" />
+    </option>
+  </component>
+</project>

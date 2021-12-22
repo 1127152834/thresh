@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/thresh.iml" filepath="$PROJECT_DIR$/.idea/thresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-cloud/thresh-cloud.iml" filepath="$PROJECT_DIR$/thresh-cloud/thresh-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-core/thresh-common-core.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-core/thresh-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-datasource-starter/thresh-common-datasource-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-datasource-starter/thresh-common-datasource-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-doc/thresh-common-doc.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-doc/thresh-common-doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-doc-gateway-starter/thresh-common-doc-gateway-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-doc-gateway-starter/thresh-common-doc-gateway-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-doc-starter/thresh-common-doc-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-doc-starter/thresh-common-doc-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-logging-starter/thresh-common-logging-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-logging-starter/thresh-common-logging-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-redis-starter/thresh-common-redis-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-redis-starter/thresh-common-redis-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-security-starter/thresh-common-security-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-security-starter/thresh-common-security-starter.iml" />
+    </modules>
+  </component>
+</project>
