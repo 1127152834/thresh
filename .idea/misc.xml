@@ -14,6 +14,10 @@
         <option value="$PROJECT_DIR$/thresh-common/thresh-common-logging-starter/pom.xml" />
         <option value="$PROJECT_DIR$/thresh-common/thresh-common-redis-starter/pom.xml" />
         <option value="$PROJECT_DIR$/thresh-common/thresh-common-security-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-apm/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-apm/thresh-apm-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-gateway/pom.xml" />
       </list>
     </option>
   </component>

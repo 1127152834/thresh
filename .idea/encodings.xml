@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/thresh-apm/thresh-apm-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thresh-auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thresh-common/thresh-common-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thresh-common/thresh-common-datasource-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thresh-common/thresh-common-doc-gateway-starter/src/main/java" charset="UTF-8" />
@@ -8,5 +10,6 @@
     <file url="file://$PROJECT_DIR$/thresh-common/thresh-common-logging-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thresh-common/thresh-common-redis-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thresh-common/thresh-common-security-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thresh-gateway/src/main/java" charset="UTF-8" />
   </component>
 </project>

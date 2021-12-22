@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/thresh.iml" filepath="$PROJECT_DIR$/.idea/thresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-apm/thresh-apm.iml" filepath="$PROJECT_DIR$/thresh-apm/thresh-apm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-apm/thresh-apm-admin/thresh-apm-admin.iml" filepath="$PROJECT_DIR$/thresh-apm/thresh-apm-admin/thresh-apm-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-auth/thresh-auth.iml" filepath="$PROJECT_DIR$/thresh-auth/thresh-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-cloud/thresh-cloud.iml" filepath="$PROJECT_DIR$/thresh-cloud/thresh-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-core/thresh-common-core.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-core/thresh-common-core.iml" />
@@ -13,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-logging-starter/thresh-common-logging-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-logging-starter/thresh-common-logging-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-redis-starter/thresh-common-redis-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-redis-starter/thresh-common-redis-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-security-starter/thresh-common-security-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-security-starter/thresh-common-security-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-gateway/thresh-gateway.iml" filepath="$PROJECT_DIR$/thresh-gateway/thresh-gateway.iml" />
     </modules>
   </component>
 </project>
