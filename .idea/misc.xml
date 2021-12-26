@@ -18,6 +18,13 @@
         <option value="$PROJECT_DIR$/thresh-apm/thresh-apm-admin/pom.xml" />
         <option value="$PROJECT_DIR$/thresh-auth/pom.xml" />
         <option value="$PROJECT_DIR$/thresh-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/tresh-tx-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-tx-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-server/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-server/thresh-server-system/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-server/thresh-server-job/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-server/thresh-server-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-server/thresh-server-test/pom.xml" />
       </list>
     </option>
   </component>

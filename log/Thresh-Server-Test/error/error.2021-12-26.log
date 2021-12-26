@@ -1,0 +1,22 @@
+2021-12-26 18:15:02 ERROR Thresh-Server-Test main com.codingapi.txlcn.tc.txmsg.AutoTMClusterEngine request fail. non tx-manager is alive. on reportInvalidTM.
+2021-12-26 18:15:02 ERROR Thresh-Server-Test main org.springframework.boot.SpringApplication Application run failed
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:778)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.zhang.thresh.server.test.ThreshServerTestApplication.main(ThreshServerTestApplication.java:20)
+Caused by: java.lang.IllegalStateException: There is no normal TM.
+	at com.codingapi.txlcn.tc.txmsg.TMSearcher.search(TMSearcher.java:86)
+	at com.codingapi.txlcn.tc.txmsg.AutoTMClusterEngine.prepareToResearchTMCluster(AutoTMClusterEngine.java:83)
+	at com.codingapi.txlcn.tc.txmsg.AutoTMClusterEngine.onConnectFail(AutoTMClusterEngine.java:69)
+	at com.codingapi.txlcn.tc.txmsg.TCSideRpcInitCallBack.lambda$connectFail$3(TCSideRpcInitCallBack.java:107)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at com.codingapi.txlcn.tc.txmsg.TCSideRpcInitCallBack.connectFail(TCSideRpcInitCallBack.java:107)
+	at com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer.connect(NettyRpcClientInitializer.java:125)
+	at com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer.init(NettyRpcClientInitializer.java:85)
+	at com.codingapi.txlcn.tc.txmsg.TCRpcServer.init(TCRpcServer.java:58)
+	at com.codingapi.txlcn.common.runner.TxLcnApplicationRunner.run(TxLcnApplicationRunner.java:54)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:775)
+	... 5 common frames omitted

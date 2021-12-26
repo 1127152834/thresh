@@ -5,12 +5,12 @@
     <parent>
         <groupId>com.zhang.thresh</groupId>
         <artifactId>thresh-common</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>2.2-RELEASE</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zhang.thresh</groupId>
     <artifactId>thresh-common-core</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>2.2-RELEASE</version>
     <name>thresh-common-core</name>
     <packaging>jar</packaging>
     <description>基础模块</description>

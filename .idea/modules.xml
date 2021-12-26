@@ -17,6 +17,12 @@
       <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-redis-starter/thresh-common-redis-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-redis-starter/thresh-common-redis-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-common/thresh-common-security-starter/thresh-common-security-starter.iml" filepath="$PROJECT_DIR$/thresh-common/thresh-common-security-starter/thresh-common-security-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-gateway/thresh-gateway.iml" filepath="$PROJECT_DIR$/thresh-gateway/thresh-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server-generator/thresh-server-generator.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server-generator/thresh-server-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server-job/thresh-server-job.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server-job/thresh-server-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server-system/thresh-server-system.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server-system/thresh-server-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server-test/thresh-server-test.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server-test/thresh-server-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-tx-manager/thresh-tx-manager.iml" filepath="$PROJECT_DIR$/thresh-tx-manager/thresh-tx-manager.iml" />
     </modules>
   </component>
 </project>

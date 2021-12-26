@@ -1,0 +1,4 @@
+1640513957840|4|statement|connection 1|url jdbc:mysql://localhost:3306/thresh_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8|select 1|select 1
+1640513958329|0|statement|connection 3|url jdbc:mysql://localhost:3306/thresh_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8|select 1|select 1
+1640513971715|0|statement|connection 5|url jdbc:mysql://localhost:3306/thresh_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8|select 1|select 1
+1640513991708|0|statement|connection 7|url jdbc:mysql://localhost:3306/thresh_cloud_base?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8|select 1|select 1

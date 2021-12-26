@@ -6,13 +6,16 @@
 
     <groupId>com.zhang.thresh</groupId>
     <artifactId>thresh-cloud</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>2.2-RELEASE</version>
     <name>thresh-cloud</name>
     <description>Thresh-Cloud：Spring Cloud，Spring Security OAuth2 微服务权限管理系统</description>
     <packaging>pom</packaging>
 
     <modules>
         <module>../thresh-common</module>
+        <module>../thresh-apm</module>
+        <module>../thresh-auth</module>
+        <module>../thresh-tx-manager</module>
     </modules>
 
     <parent>

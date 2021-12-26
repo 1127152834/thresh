@@ -1,6 +1,6 @@
 spring:
   application:
-    name: thresh-Admin
+    name: Thresh-Admin
   cloud:
     nacos:
       config:

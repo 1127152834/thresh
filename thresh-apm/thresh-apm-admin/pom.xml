@@ -5,13 +5,13 @@
     <parent>
         <groupId>com.zhang.thresh</groupId>
         <artifactId>thresh-apm</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>2.2-RELEASE</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <groupId>com.zhang.thresh</groupId>
     <artifactId>thresh-apm-admin</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>2.2-RELEASE</version>
     <name>thresh-apm-admin</name>
     <description>基于Spring Boot Admin搭建的监控程序</description>
     <properties>

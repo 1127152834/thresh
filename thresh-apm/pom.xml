@@ -5,13 +5,13 @@
     <parent>
         <artifactId>thresh-cloud</artifactId>
         <groupId>com.zhang.thresh</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>2.2-RELEASE</version>
         <relativePath>../thresh-cloud/pom.xml</relativePath>
     </parent>
 
     <groupId>com.zhang.thresh</groupId>
     <artifactId>thresh-apm</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>2.2-RELEASE</version>
     <packaging>pom</packaging>
     <name>thresh-apm</name>
     <description>应用性能监控服务(Application Performance Monitor)</description>

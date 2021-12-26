@@ -2,18 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="thresh-server-job" />
         <module name="thresh-common-logging-starter" />
-        <module name="thresh-common-doc" />
+        <module name="thresh-server-system" />
         <module name="thresh-common-doc-gateway-starter" />
+        <module name="thresh-server-generator" />
         <module name="thresh-common-core" />
+        <module name="thresh-auth" />
+        <module name="thresh-server-test" />
+        <module name="thresh-tx-manager" />
+        <module name="thresh-common-doc" />
         <module name="thresh-common-datasource-starter" />
         <module name="thresh-apm-admin" />
         <module name="thresh-gateway" />
-        <module name="thresh-auth" />
         <module name="thresh-common-redis-starter" />
         <module name="thresh-common-security-starter" />
         <module name="thresh-common-doc-starter" />
@@ -34,6 +40,12 @@
       <module name="thresh-common-redis-starter" target="1.8" />
       <module name="thresh-common-security-starter" target="1.8" />
       <module name="thresh-gateway" target="1.8" />
+      <module name="thresh-server" target="1.8" />
+      <module name="thresh-server-generator" target="1.8" />
+      <module name="thresh-server-job" target="1.8" />
+      <module name="thresh-server-system" target="1.8" />
+      <module name="thresh-server-test" target="1.8" />
+      <module name="thresh-tx-manager" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -52,6 +64,12 @@
       <module name="thresh-common-redis-starter" options="-parameters" />
       <module name="thresh-common-security-starter" options="-parameters" />
       <module name="thresh-gateway" options="-parameters" />
+      <module name="thresh-server" options="-parameters" />
+      <module name="thresh-server-generator" options="-parameters" />
+      <module name="thresh-server-job" options="-parameters" />
+      <module name="thresh-server-system" options="-parameters" />
+      <module name="thresh-server-test" options="-parameters" />
+      <module name="thresh-tx-manager" options="-parameters" />
     </option>
   </component>
 </project>
