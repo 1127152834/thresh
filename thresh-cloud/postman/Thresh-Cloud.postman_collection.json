@@ -17,7 +17,7 @@
             "description": "客户端凭证，值的格式为Basic空格 + client_id:client_secret经过Base64加密后的值",
             "key": "Authorization",
             "type": "text",
-            "value": "Basic ZmViczoxMjM0NTY="
+            "value": "Basic dGhyZXNoOjEyMzQ1Ng=="
           }
         ],
         "url": {
@@ -70,7 +70,7 @@
         "header": [
           {
             "key": "Authorization",
-            "value": "Basic ZmViczoxMjM0NTY=",
+            "value": "Basic dGhyZXNoOjEyMzQ1Ng==",
             "description": "客户端凭证，值的格式为Basic空格 + client_id:client_secret经过Base64加密后的值",
             "type": "text"
           }

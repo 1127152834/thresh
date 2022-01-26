@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zhang.thresh.server.system.mapper.UserMapper">
-    <select id="findUserDetailPage" parameterType="systemUser" resultType="systemUser">
+    <select id="findUserDetailPage" parameterType="com.zhang.thresh.common.core.entity.system.SystemUser" resultType="com.zhang.thresh.common.core.entity.system.SystemUser">
         SELECT
         u.user_id userId,
         u.username,
@@ -52,7 +52,7 @@
         u.dept_id,u.last_login_time,u.modify_time,u.description,u.avatar
     </select>
 
-    <select id="findUserDetail" parameterType="systemUser" resultType="systemUser">
+    <select id="findUserDetail" parameterType="com.zhang.thresh.common.core.entity.system.SystemUser" resultType="com.zhang.thresh.common.core.entity.system.SystemUser">
         SELECT
         u.user_id userId,
         u.username,

@@ -1,0 +1,16 @@
+2022-01-24 11:58:31,446 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2022-01-24 11:58:31,450 WARN [serverlist] updated to : [Member{ip='172.18.0.2', port=8001, state=UP, extendInfo={adWeight=0, raftPort=7001, site=unknow, weight=1}}]
+
+2022-01-24 12:05:05,810 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2022-01-24 12:05:05,814 WARN [serverlist] updated to : [Member{ip='172.18.0.2', port=8001, state=UP, extendInfo={adWeight=0, raftPort=7001, site=unknow, weight=1}}]
+
+2022-01-24 12:09:32,014 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2022-01-24 12:09:32,017 WARN [serverlist] updated to : [Member{ip='172.18.0.2', port=8001, state=UP, extendInfo={adWeight=0, raftPort=7001, site=unknow, weight=1}}]
+
+2022-01-24 12:12:37,734 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2022-01-24 12:12:37,745 WARN [serverlist] updated to : [Member{ip='172.18.0.2', port=8001, state=UP, extendInfo={adWeight=0, raftPort=7001, site=unknow, weight=1}}]
+

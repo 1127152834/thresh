@@ -5,7 +5,7 @@ services:
     image: prom/prometheus
     container_name: prometheus
     volumes:
-      - /thresh/prometheus/:/etc/prometheus/
+      - D:/Thresh/third-part/prometheus/:/etc/prometheus/
     ports:
       - 8403:9090
     restart: on-failure
@@ -18,8 +18,8 @@ services:
     image: oliver006/redis_exporter
     container_name: redis_exporter
     command:
-      - '--redis.addr=redis://ip:port'
-      - '--redis.password=password'
+      - '--redis.addr=redis://127.0.0.1:6379'
+      - '--redis.password='
     ports:
       - 8408:9121
     restart: on-failure
@@ -27,7 +27,7 @@ services:
     image: prom/mysqld-exporter
     container_name: mysql_exporter
     environment:
-      - DATA_SOURCE_NAME=username:password@(ip:port)/
+      - DATA_SOURCE_NAME=root:Admin@123@(127.0.0.1:3306)/
     ports:
       - 8409:9104
   cadvisor:
@@ -44,7 +44,7 @@ services:
     image: prom/alertmanager
     container_name: alertmanager
     volumes:
-      - /thresh/alertmanager/alertmanager.yml:/etc/alertmanager/alertmanager.yml
+      - D:/Thresh/third-part/alertmanager/alertmanager.yml:/etc/alertmanager/alertmanager.yml
     ports:
       - 8406:9093
   grafana:
@@ -52,8 +52,8 @@ services:
     container_name: grafana
     user: 'root'
     volumes:
-      - /thresh/grafana/data:/var/lib/grafana:rw
-      - /thresh/grafana/log:/var/log/grafana
-      - /etc/localtime:/etc/localtime
+      - D:/Thresh/third-part/grafana/data:/var/lib/grafana:rw
+      - D:/Thresh/third-part/grafana/log:/var/log/grafana
+      - D:/Thresh/third-part/grafana/etc/localtime:/etc/localtime
     ports:
       - 8404:3000

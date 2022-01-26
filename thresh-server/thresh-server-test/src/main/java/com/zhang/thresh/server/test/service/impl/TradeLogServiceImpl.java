@@ -27,7 +27,6 @@ public class TradeLogServiceImpl extends ServiceImpl<TradeLogMapper, TradeLog> i
     public void orderAndPay(TradeLog tradeLog) {
         tradeLog.setCreateTime(new Date());
         tradeLog.setStatus("下单并支付成功");
-
         // 保存支付日志
         this.save(tradeLog);
         log.info("用户已经下单并支付成功商品ID为{}，名称为{}的商品", tradeLog.getGoodsId(), tradeLog.getGoodsName());

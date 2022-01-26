@@ -1,0 +1,34 @@
+2022-01-24 12:39:09,531 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-01-24 12:52:47,857 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-01-24 12:55:49,154 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-01-24 13:01:59,216 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-01-24 16:03:52,731 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-01-24 16:51:44,697 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8204@DEFAULT@Thresh-Server-Job, region: unknown, msg: client last beat: 1643014288690
+
+2022-01-24 16:51:45,615 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8101@DEFAULT@Thresh-Auth, region: unknown, msg: client last beat: 1643014288999
+
+2022-01-24 16:51:49,709 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8301@DEFAULT@Thresh-Gateway, region: unknown, msg: client last beat: 1643014293146
+
+2022-01-24 16:51:49,709 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8203@DEFAULT@Thresh-Server-Generator, region: unknown, msg: client last beat: 1643014293146
+
+2022-01-24 17:04:54,709 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8204@DEFAULT@Thresh-Server-Job, region: unknown, msg: client last beat: 1643015079692
+
+2022-01-24 17:04:56,011 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8101@DEFAULT@Thresh-Auth, region: unknown, msg: client last beat: 1643015076110
+
+2022-01-24 17:04:56,866 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8203@DEFAULT@Thresh-Server-Generator, region: unknown, msg: client last beat: 1643015077028
+
+2022-01-24 17:05:01,888 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8301@DEFAULT@Thresh-Gateway, region: unknown, msg: client last beat: 1643015081970
+
+2022-01-24 17:37:07,722 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8204@DEFAULT@Thresh-Server-Job, region: unknown, msg: client last beat: 1643017012640
+
+2022-01-24 17:37:12,374 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8301@DEFAULT@Thresh-Gateway, region: unknown, msg: client last beat: 1643017012469
+
+2022-01-24 17:37:12,470 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8101@DEFAULT@Thresh-Auth, region: unknown, msg: client last beat: 1643017012849
+
+2022-01-24 17:37:15,044 INFO {POS} {IP-DISABLED} valid: 192.168.2.223:8203@DEFAULT@Thresh-Server-Generator, region: unknown, msg: client last beat: 1643017015038
+

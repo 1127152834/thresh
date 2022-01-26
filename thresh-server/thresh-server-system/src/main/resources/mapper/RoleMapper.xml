@@ -23,7 +23,7 @@
             u.username = #{username}
     </select>
 
-    <select id="findRolePage" parameterType="role" resultType="role">
+    <select id="findRolePage" parameterType="com.zhang.thresh.common.core.entity.system.Role" resultType="com.zhang.thresh.common.core.entity.system.Role">
         SELECT
         r.role_id roleId,
         r.role_name roleName,

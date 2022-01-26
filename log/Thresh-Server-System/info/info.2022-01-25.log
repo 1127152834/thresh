@@ -1,0 +1,494 @@
+2022-01-25 09:30:01 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:01 INFO  Thresh-Server-System main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='thresh-server-system.yaml'}, NacosPropertySource {name='thresh-server-system'}]}
+2022-01-25 09:30:01 INFO  Thresh-Server-System main com.zhang.thresh.server.system.ThreshServerSystemApplication No active profile set, falling back to default profiles: default
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.cloud.context.scope.GenericScope BeanFactory id=674c7812-950f-356d-aaf5-dca082769eb3
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3815146b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.zhang.thresh.common.security.starter.configure.ThreshCloudSecurityAutoConfigure' of type [com.zhang.thresh.common.security.starter.configure.ThreshCloudSecurityAutoConfigure$$EnhancerBySpringCGLIB$$331e770d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4c9b0686] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:04 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:30:05 INFO  Thresh-Server-System main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8201 (http)
+2022-01-25 09:30:05 INFO  Thresh-Server-System main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8201"]
+2022-01-25 09:30:05 INFO  Thresh-Server-System main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2022-01-25 09:30:05 INFO  Thresh-Server-System main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-25 09:30:05 INFO  Thresh-Server-System main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-01-25 09:30:05 INFO  Thresh-Server-System main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 3670 ms
+2022-01-25 09:30:05 INFO  Thresh-Server-System main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-01-25 09:30:05 INFO  Thresh-Server-System main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@a457c2b
+2022-01-25 09:30:06 INFO  Thresh-Server-System main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource detect P6SPY plugin and enabled it
+2022-01-25 09:30:06 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource base - Starting...
+2022-01-25 09:30:07 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2022-01-25 09:30:07 INFO  Thresh-Server-System main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [base] success
+2022-01-25 09:30:07 INFO  Thresh-Server-System main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2022-01-25 09:30:07 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2022-01-25 09:30:07 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2022-01-25 09:30:07 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2022-01-25 09:30:07 INFO  Thresh-Server-System main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2022-01-25 09:30:08 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-01-25 09:30:08 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-01-25 09:30:08 INFO  Thresh-Server-System main com.codingapi.txlcn.tc.corelog.H2DbHelper Init H2 DATABASE at D:\github\thresh\.txlcn\Thresh-Server-System-8201
+2022-01-25 09:30:08 INFO  Thresh-Server-System main com.codingapi.txlcn.logger.db.LogDbProperties TxLogger used user's config.
+2022-01-25 09:30:08 INFO  Thresh-Server-System main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 21 endpoint(s) beneath base path '/actuator'
+2022-01-25 09:30:09 INFO  Thresh-Server-System main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2022-01-25 09:30:09 INFO  Thresh-Server-System main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'threshAsyncThreadPool'
+2022-01-25 09:30:09 INFO  Thresh-Server-System main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-01-25 09:30:09 INFO  Thresh-Server-System main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2022-01-25 09:30:09 INFO  Thresh-Server-System main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-25 09:30:09 INFO  Thresh-Server-System main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2022-01-25 09:30:09 INFO  Thresh-Server-System main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31b7112d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f740044, org.springframework.security.web.header.HeaderWriterFilter@4b86a656, org.springframework.security.web.authentication.logout.LogoutFilter@1f641fb7, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@4bac0be5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4b8cde43, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@278150a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22617270, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47fc9ce, org.springframework.security.web.session.SessionManagementFilter@642d34f1, org.springframework.security.web.access.ExceptionTranslationFilter@3b0c38f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b17759c]
+2022-01-25 09:30:10 INFO  Thresh-Server-System main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-01-25 09:30:10 INFO  Thresh-Server-System main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-01-25 09:30:10 INFO  Thresh-Server-System main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-01-25 09:30:10 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2022-01-25 09:30:10 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2022-01-25 09:30:10 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_3
+2022-01-25 09:30:10 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_4
+2022-01-25 09:30:10 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_5
+2022-01-25 09:30:10 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_6
+2022-01-25 09:30:10 INFO  Thresh-Server-System main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8201"]
+2022-01-25 09:30:10 INFO  Thresh-Server-System main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8201 (http) with context path ''
+2022-01-25 09:30:10 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.2.223","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8201,"scheduled":false,"serviceName":"DEFAULT_GROUP@@Thresh-Server-System","stopped":false,"weight":1.0} to beat map.
+2022-01-25 09:30:10 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@Thresh-Server-System with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.2.223","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8201,"weight":1.0}
+2022-01-25 09:30:10 INFO  Thresh-Server-System main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP Thresh-Server-System 192.168.2.223:8201 register finished
+2022-01-25 09:30:10 INFO  Thresh-Server-System main com.zhang.thresh.server.system.ThreshServerSystemApplication Started ThreshServerSystemApplication in 10.763 seconds (JVM running for 11.758)
+2022-01-25 09:30:11 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(${thresh-tx-manager}:8888) - count 1
+2022-01-25 09:30:17 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(${thresh-tx-manager}:8888) - count 2
+2022-01-25 09:30:23 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(${thresh-tx-manager}:8888) - count 3
+2022-01-25 09:30:29 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(${thresh-tx-manager}:8888) - count 4
+2022-01-25 09:30:35 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(${thresh-tx-manager}:8888) - count 5
+2022-01-25 09:30:41 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(${thresh-tx-manager}:8888) - count 6
+2022-01-25 09:30:47 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(${thresh-tx-manager}:8888) - count 7
+2022-01-25 09:30:53 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(${thresh-tx-manager}:8888) - count 8
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.codingapi.txlcn.tc.txmsg.TMSearcher Searching for more TM...
+2022-01-25 09:30:59 INFO  Thresh-Server-System main org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-25 09:30:59 INFO  Thresh-Server-System main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Shutting down ExecutorService
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registering from Nacos Server now...
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming [BEAT] removing beat: DEFAULT_GROUP@@Thresh-Server-System:192.168.2.223:8201 from beat map.
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@Thresh-Server-System with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.2.223","ipDeleteTimeout":30000,"metadata":{},"port":8201,"weight":1.0}
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.alibaba.cloud.nacos.registry.NacosServiceRegistry De-registration finished.
+2022-01-25 09:30:59 INFO  Thresh-Server-System main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'threshAsyncThreadPool'
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcServerInitializer server was down.
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer RPC client was down.
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.codingapi.txlcn.tc.corelog.H2DbHelper log hikariDataSource close.
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource start closing ....
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource base - Shutdown initiated...
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource base - Shutdown completed.
+2022-01-25 09:30:59 INFO  Thresh-Server-System main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource all closed success,bye
+2022-01-25 09:32:33 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:34 INFO  Thresh-Server-System main org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource {name='thresh-server-system.yaml'}, NacosPropertySource {name='thresh-server-system'}]}
+2022-01-25 09:32:34 INFO  Thresh-Server-System main com.zhang.thresh.server.system.ThreshServerSystemApplication No active profile set, falling back to default profiles: default
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.cloud.context.scope.GenericScope BeanFactory id=674c7812-950f-356d-aaf5-dca082769eb3
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7d30007d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.zhang.thresh.common.security.starter.configure.ThreshCloudSecurityAutoConfigure' of type [com.zhang.thresh.common.security.starter.configure.ThreshCloudSecurityAutoConfigure$$EnhancerBySpringCGLIB$$e8f765bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$273f536] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-25 09:32:35 INFO  Thresh-Server-System main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8201 (http)
+2022-01-25 09:32:36 INFO  Thresh-Server-System main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8201"]
+2022-01-25 09:32:36 INFO  Thresh-Server-System main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2022-01-25 09:32:36 INFO  Thresh-Server-System main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-01-25 09:32:36 INFO  Thresh-Server-System main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2022-01-25 09:32:36 INFO  Thresh-Server-System main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 2045 ms
+2022-01-25 09:32:36 INFO  Thresh-Server-System main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-01-25 09:32:36 INFO  Thresh-Server-System main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@563317c1
+2022-01-25 09:32:36 INFO  Thresh-Server-System main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource detect P6SPY plugin and enabled it
+2022-01-25 09:32:36 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource base - Starting...
+2022-01-25 09:32:37 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource base - Start completed.
+2022-01-25 09:32:37 INFO  Thresh-Server-System main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource - load a datasource named [base] success
+2022-01-25 09:32:37 INFO  Thresh-Server-System main com.baomidou.dynamic.datasource.DynamicRoutingDataSource dynamic-datasource initial loaded [1] datasource,primary datasource named [base]
+2022-01-25 09:32:37 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2022-01-25 09:32:37 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming initializer namespace from System Environment :null
+2022-01-25 09:32:37 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming initializer namespace from System Property :null
+2022-01-25 09:32:37 INFO  Thresh-Server-System main org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2022-01-25 09:32:38 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2022-01-25 09:32:39 INFO  Thresh-Server-System main com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2022-01-25 09:32:39 INFO  Thresh-Server-System main com.codingapi.txlcn.tc.corelog.H2DbHelper Init H2 DATABASE at D:\github\thresh\.txlcn\Thresh-Server-System-8201
+2022-01-25 09:32:39 INFO  Thresh-Server-System main com.codingapi.txlcn.logger.db.LogDbProperties TxLogger used user's config.
+2022-01-25 09:32:39 INFO  Thresh-Server-System main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 21 endpoint(s) beneath base path '/actuator'
+2022-01-25 09:32:40 INFO  Thresh-Server-System main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService
+2022-01-25 09:32:40 INFO  Thresh-Server-System main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'threshAsyncThreadPool'
+2022-01-25 09:32:40 INFO  Thresh-Server-System main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-01-25 09:32:40 INFO  Thresh-Server-System main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2022-01-25 09:32:40 INFO  Thresh-Server-System main springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-01-25 09:32:40 INFO  Thresh-Server-System main org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Initializing ExecutorService
+2022-01-25 09:32:40 INFO  Thresh-Server-System main org.springframework.security.web.DefaultSecurityFilterChain Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62732be7, org.springframework.security.web.context.SecurityContextPersistenceFilter@74babce8, org.springframework.security.web.header.HeaderWriterFilter@6f651ac, org.springframework.security.web.authentication.logout.LogoutFilter@185b7cc6, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@5464aeec, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5002be8e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28e24663, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@361c4981, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@278150a1, org.springframework.security.web.session.SessionManagementFilter@5527dbb0, org.springframework.security.web.access.ExceptionTranslationFilter@2ecc4be7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@248b2091]
+2022-01-25 09:32:41 INFO  Thresh-Server-System main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Context refreshed
+2022-01-25 09:32:41 INFO  Thresh-Server-System main springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Found 1 custom documentation plugin(s)
+2022-01-25 09:32:41 INFO  Thresh-Server-System main springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Scanning for api listing references
+2022-01-25 09:32:41 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_1
+2022-01-25 09:32:41 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_2
+2022-01-25 09:32:41 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_3
+2022-01-25 09:32:41 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_4
+2022-01-25 09:32:41 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_5
+2022-01-25 09:32:41 INFO  Thresh-Server-System main springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator Generating unique operation named: exportUsingPOST_6
+2022-01-25 09:32:41 INFO  Thresh-Server-System main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8201"]
+2022-01-25 09:32:41 INFO  Thresh-Server-System main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8201 (http) with context path ''
+2022-01-25 09:32:41 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.2.223","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":8201,"scheduled":false,"serviceName":"DEFAULT_GROUP@@Thresh-Server-System","stopped":false,"weight":1.0} to beat map.
+2022-01-25 09:32:41 INFO  Thresh-Server-System main com.alibaba.nacos.client.naming [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@Thresh-Server-System with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.2.223","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8201,"weight":1.0}
+2022-01-25 09:32:41 INFO  Thresh-Server-System main com.alibaba.cloud.nacos.registry.NacosServiceRegistry nacos registry, DEFAULT_GROUP Thresh-Server-System 192.168.2.223:8201 register finished
+2022-01-25 09:32:42 INFO  Thresh-Server-System main com.zhang.thresh.server.system.ThreshServerSystemApplication Started ThreshServerSystemApplication in 9.319 seconds (JVM running for 10.211)
+2022-01-25 09:32:42 INFO  Thresh-Server-System main com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(/0.0.0.0:8888) - count 1
+2022-01-25 09:32:42 INFO  Thresh-Server-System Thread-31 com.codingapi.txlcn.tc.txmsg.TCSideRpcInitCallBack Send init message to TM[/0.0.0.0:8888]
+2022-01-25 09:32:42 INFO  Thresh-Server-System main com.codingapi.txlcn.tc.corelog.txc.TxcLogHelper Txc log table finish (H2 DATABASE)
+2022-01-25 09:32:42 INFO  Thresh-Server-System main com.codingapi.txlcn.tc.corelog.aspect.AspectLogHelper Aspect log table finished (H2 DATABASE)
+2022-01-25 09:32:42 INFO  Thresh-Server-System main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] thresh-server-system.yaml+DEFAULT_GROUP
+2022-01-25 09:32:42 INFO  Thresh-Server-System main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=thresh-server-system.yaml, group=DEFAULT_GROUP, cnt=1
+2022-01-25 09:32:42 INFO  Thresh-Server-System main com.alibaba.nacos.client.config.impl.ClientWorker [fixed-127.0.0.1_8001] [subscribe] thresh-server-system+DEFAULT_GROUP
+2022-01-25 09:32:42 INFO  Thresh-Server-System main com.alibaba.nacos.client.config.impl.CacheData [fixed-127.0.0.1_8001] [add-listener] ok, tenant=, dataId=thresh-server-system, group=DEFAULT_GROUP, cnt=1
+2022-01-25 09:32:42 INFO  Thresh-Server-System Thread-31 com.codingapi.txlcn.tc.txmsg.TCSideRpcInitCallBack Finally, determined dtx time is 8000ms, tm rpc timeout is 1000 ms, machineId is 5
+2022-01-25 09:32:42 INFO  Thresh-Server-System Thread-31 com.codingapi.txlcn.tc.txmsg.TMSearcher Searching for more TM...
+2022-01-25 09:32:42 INFO  Thresh-Server-System registrationTask1 de.codecentric.boot.admin.client.registration.ApplicationRegistrator Application registered itself as 987bcb98e89d
+2022-01-25 09:32:42 INFO  Thresh-Server-System http-nio-8201-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-25 09:32:42 INFO  Thresh-Server-System http-nio-8201-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2022-01-25 09:32:42 INFO  Thresh-Server-System http-nio-8201-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 15 ms
+2022-01-25 09:32:42 INFO  Thresh-Server-System Thread-31 com.codingapi.txlcn.tc.txmsg.TMSearcher TC[Thresh-Server-System:8201] established TM cluster successfully!
+2022-01-25 09:32:42 INFO  Thresh-Server-System Thread-31 com.codingapi.txlcn.tc.txmsg.TMSearcher TM cluster's size: 1
+2022-01-25 09:44:59 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 09:44:59 | 耗时 4 ms | SQL 语句：
+UPDATE t_user SET LAST_LOGIN_TIME = '2022-01-25T09:44:59.845+0800' WHERE (USERNAME = 'scott');
+2022-01-25 09:44:59 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 
+2022-01-25 09:45:00 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 2022-01-25 09:45:00 | 耗时 5 ms | SQL 语句：
+SELECT m.* FROM t_menu m WHERE m.type <> 1 AND m.MENU_ID IN (SELECT DISTINCT rm.menu_id FROM t_role_menu rm LEFT JOIN t_role r ON (rm.role_id = r.role_id) LEFT JOIN t_user_role ur ON (ur.role_id = r.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) WHERE u.username = 'scott') ORDER BY m.order_num;
+2022-01-25 09:45:00 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 09:45:00 | 耗时 12 ms | SQL 语句：
+INSERT INTO t_login_log (`SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME) VALUES ('Windows 10', '2022-01-25T09:44:59.999+0800', 'Chrome 97', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', 'scott');
+2022-01-25 09:45:00 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 2022-01-25 09:45:00 | 耗时 3 ms | SQL 语句：
+SELECT DISTINCT m.perms FROM t_role r LEFT JOIN t_user_role ur ON (r.role_id = ur.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) LEFT JOIN t_role_menu rm ON (rm.role_id = r.role_id) LEFT JOIN t_menu m ON (m.menu_id = rm.menu_id) WHERE u.username = 'scott' AND m.perms IS NOT NULL AND m.perms <> '';
+2022-01-25 09:45:01 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 09:45:01 | 耗时 3 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 09:45:01 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 09:45:01 | 耗时 2 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 09:45:01 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 09:45:01 | 耗时 1 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 09:45:01 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 09:45:01 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 09:45:01 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 09:45:01 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 09:46:16 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 09:46:16 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 09:46:16 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 09:46:16 | 耗时 3 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 09:46:16 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 09:46:16 | 耗时 2 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 09:46:16 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 09:46:16 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 09:46:16 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 09:46:16 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 09:46:50 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 09:46:50 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 09:46:50 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 09:46:50 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 09:46:50 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 09:46:50 | 耗时 1 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 09:46:50 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 09:46:50 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 09:46:50 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 09:46:50 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 09:48:31 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 09:48:31 | 耗时 2 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 09:48:31 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 09:48:31 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 09:48:31 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 09:48:31 | 耗时 1 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 09:48:31 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 09:48:31 | 耗时 0 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 09:48:31 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 09:48:31 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 09:48:54 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 09:48:54 | 耗时 3 ms | SQL 语句：
+UPDATE t_user SET LAST_LOGIN_TIME = '2022-01-25T09:48:54.925+0800' WHERE (USERNAME = 'scott');
+2022-01-25 09:48:54 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 
+2022-01-25 09:48:54 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 09:48:54 | 耗时 6 ms | SQL 语句：
+INSERT INTO t_login_log (`SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME) VALUES ('Windows 10', '2022-01-25T09:48:54.942+0800', 'Chrome 97', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', 'scott');
+2022-01-25 09:48:54 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 09:48:54 | 耗时 2 ms | SQL 语句：
+SELECT m.* FROM t_menu m WHERE m.type <> 1 AND m.MENU_ID IN (SELECT DISTINCT rm.menu_id FROM t_role_menu rm LEFT JOIN t_role r ON (rm.role_id = r.role_id) LEFT JOIN t_user_role ur ON (ur.role_id = r.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) WHERE u.username = 'scott') ORDER BY m.order_num;
+2022-01-25 09:48:54 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 09:48:54 | 耗时 2 ms | SQL 语句：
+SELECT DISTINCT m.perms FROM t_role r LEFT JOIN t_user_role ur ON (r.role_id = ur.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) LEFT JOIN t_role_menu rm ON (rm.role_id = r.role_id) LEFT JOIN t_menu m ON (m.menu_id = rm.menu_id) WHERE u.username = 'scott' AND m.perms IS NOT NULL AND m.perms <> '';
+2022-01-25 09:48:56 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 09:48:56 | 耗时 2 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 09:48:56 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 09:48:56 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 09:48:56 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 09:48:56 | 耗时 2 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 09:48:56 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 09:48:56 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 09:48:56 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 09:48:56 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 10:16:50 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:16:50 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:16:50 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:16:50 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:16:50 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:16:50 | 耗时 1 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:16:50 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:16:50 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:16:50 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:16:50 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 10:17:35 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:17:35 | 耗时 20 ms | SQL 语句：
+UPDATE t_user SET LAST_LOGIN_TIME = '2022-01-25T10:17:34.997+0800' WHERE (USERNAME = 'scott');
+2022-01-25 10:17:35 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 
+2022-01-25 10:17:35 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:17:35 | 耗时 30 ms | SQL 语句：
+INSERT INTO t_login_log (`SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME) VALUES ('Windows 10', '2022-01-25T10:17:35.063+0800', 'Firefox 96', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', 'scott');
+2022-01-25 10:17:35 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 10:17:35 | 耗时 13 ms | SQL 语句：
+SELECT m.* FROM t_menu m WHERE m.type <> 1 AND m.MENU_ID IN (SELECT DISTINCT rm.menu_id FROM t_role_menu rm LEFT JOIN t_role r ON (rm.role_id = r.role_id) LEFT JOIN t_user_role ur ON (ur.role_id = r.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) WHERE u.username = 'scott') ORDER BY m.order_num;
+2022-01-25 10:17:35 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 10:17:35 | 耗时 9 ms | SQL 语句：
+SELECT DISTINCT m.perms FROM t_role r LEFT JOIN t_user_role ur ON (r.role_id = ur.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) LEFT JOIN t_role_menu rm ON (rm.role_id = r.role_id) LEFT JOIN t_menu m ON (m.menu_id = rm.menu_id) WHERE u.username = 'scott' AND m.perms IS NOT NULL AND m.perms <> '';
+2022-01-25 10:17:36 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:17:36 | 耗时 0 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:17:36 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:17:36 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:17:36 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:17:36 | 耗时 2 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:17:36 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:17:36 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:17:36 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:17:36 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 10:19:31 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:19:31 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:19:31 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:19:31 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:19:31 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:19:31 | 耗时 1 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:19:31 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:19:31 | 耗时 0 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:19:31 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:19:31 | 耗时 0 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 10:31:21 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:31:21 | 耗时 2 ms | SQL 语句：
+UPDATE t_user SET LAST_LOGIN_TIME = '2022-01-25T10:31:21.304+0800' WHERE (USERNAME = 'scott');
+2022-01-25 10:31:21 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 
+2022-01-25 10:31:21 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:31:21 | 耗时 2 ms | SQL 语句：
+INSERT INTO t_login_log (`SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME) VALUES ('Windows 10', '2022-01-25T10:31:21.317+0800', 'Chrome 97', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', 'scott');
+2022-01-25 10:31:21 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:31:21 | 耗时 7 ms | SQL 语句：
+SELECT m.* FROM t_menu m WHERE m.type <> 1 AND m.MENU_ID IN (SELECT DISTINCT rm.menu_id FROM t_role_menu rm LEFT JOIN t_role r ON (rm.role_id = r.role_id) LEFT JOIN t_user_role ur ON (ur.role_id = r.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) WHERE u.username = 'scott') ORDER BY m.order_num;
+2022-01-25 10:31:21 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:31:21 | 耗时 2 ms | SQL 语句：
+SELECT DISTINCT m.perms FROM t_role r LEFT JOIN t_user_role ur ON (r.role_id = ur.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) LEFT JOIN t_role_menu rm ON (rm.role_id = r.role_id) LEFT JOIN t_menu m ON (m.menu_id = rm.menu_id) WHERE u.username = 'scott' AND m.perms IS NOT NULL AND m.perms <> '';
+2022-01-25 10:31:22 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:31:22 | 耗时 0 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:31:22 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:31:22 | 耗时 4 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:31:22 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:31:22 | 耗时 1 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:31:22 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:31:22 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:31:22 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:31:22 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 10:33:11 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:33:11 | 耗时 4 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:33:11 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:33:11 | 耗时 3 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:33:11 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:33:11 | 耗时 5 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:33:11 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:33:11 | 耗时 3 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:33:11 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:33:11 | 耗时 3 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 10:33:21 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:33:21 | 耗时 3 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:33:21 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:33:21 | 耗时 2 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:33:21 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:33:21 | 耗时 5 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:33:21 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:33:21 | 耗时 3 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:33:21 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:33:21 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 10:38:16 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:38:16 | 耗时 2 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:38:16 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:38:16 | 耗时 4 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:38:16 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:38:16 | 耗时 3 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:38:16 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:38:16 | 耗时 3 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:38:16 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:38:16 | 耗时 4 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'scott' GROUP BY days;
+2022-01-25 10:38:21 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 10:38:21 | 耗时 4 ms | SQL 语句：
+SELECT ROLE_ID, MODIFY_TIME, CREATE_TIME, ROLE_NAME, REMARK FROM t_role ORDER BY ROLE_ID ASC;
+2022-01-25 10:38:21 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:38:21 | 耗时 6 ms | SQL 语句：
+SELECT DEPT_ID, dept_name, MODIFY_TIME, CREATE_TIME, ORDER_NUM, PARENT_ID FROM t_dept ORDER BY order_num ASC;
+2022-01-25 10:38:21 INFO  Thresh-Server-System http-nio-8201-exec-6 p6spy 2022-01-25 10:38:21 | 耗时 16 ms | SQL 语句：
+SELECT COUNT(1) FROM ( SELECT u.user_id userId, u.username, u.email, u.mobile, u.status, u.create_time createTime, u.ssex sex, u.dept_id deptId, u.last_login_time lastLoginTime, u.modify_time modifyTime, u.description, u.avatar, d.dept_name deptName, GROUP_CONCAT(r.role_id) roleId, GROUP_CONCAT(r.role_name) roleName FROM t_user u LEFT JOIN t_dept d ON (u.dept_id = d.dept_id) LEFT JOIN t_user_role ur ON (u.user_id = ur.user_id) LEFT JOIN t_role r ON (r.role_id = ur.role_id) WHERE 1 = 1 GROUP BY u.username, u.user_id, u.email, u.mobile, u.status, u.create_time, u.ssex, u.dept_id, u.last_login_time, u.modify_time, u.description, u.avatar ) TOTAL;
+2022-01-25 10:38:21 INFO  Thresh-Server-System http-nio-8201-exec-6 p6spy 2022-01-25 10:38:21 | 耗时 6 ms | SQL 语句：
+SELECT u.user_id userId, u.username, u.email, u.mobile, u.status, u.create_time createTime, u.ssex sex, u.dept_id deptId, u.last_login_time lastLoginTime, u.modify_time modifyTime, u.description, u.avatar, d.dept_name deptName, GROUP_CONCAT(r.role_id) roleId, GROUP_CONCAT(r.role_name) roleName FROM t_user u LEFT JOIN t_dept d ON (u.dept_id = d.dept_id) LEFT JOIN t_user_role ur ON (u.user_id = ur.user_id) LEFT JOIN t_role r ON (r.role_id = ur.role_id) WHERE 1 = 1 GROUP BY u.username, u.user_id, u.email, u.mobile, u.status, u.create_time, u.ssex, u.dept_id, u.last_login_time, u.modify_time, u.description, u.avatar ORDER BY userId LIMIT 0,10;
+2022-01-25 10:39:03 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:39:03 | 耗时 29 ms | SQL 语句：
+UPDATE t_user SET LAST_LOGIN_TIME = '2022-01-25T10:39:03.043+0800' WHERE (USERNAME = 'MrZhang');
+2022-01-25 10:39:03 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 
+2022-01-25 10:39:03 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:39:03 | 耗时 23 ms | SQL 语句：
+INSERT INTO t_login_log (`SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME) VALUES ('Windows 10', '2022-01-25T10:39:03.105+0800', 'Chrome 97', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', 'MrZhang');
+2022-01-25 10:39:03 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:39:03 | 耗时 13 ms | SQL 语句：
+SELECT m.* FROM t_menu m WHERE m.type <> 1 AND m.MENU_ID IN (SELECT DISTINCT rm.menu_id FROM t_role_menu rm LEFT JOIN t_role r ON (rm.role_id = r.role_id) LEFT JOIN t_user_role ur ON (ur.role_id = r.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) WHERE u.username = 'MrZhang') ORDER BY m.order_num;
+2022-01-25 10:39:03 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:39:03 | 耗时 13 ms | SQL 语句：
+SELECT DISTINCT m.perms FROM t_role r LEFT JOIN t_user_role ur ON (r.role_id = ur.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) LEFT JOIN t_role_menu rm ON (rm.role_id = r.role_id) LEFT JOIN t_menu m ON (m.menu_id = rm.menu_id) WHERE u.username = 'MrZhang' AND m.perms IS NOT NULL AND m.perms <> '';
+2022-01-25 10:39:03 INFO  Thresh-Server-System http-nio-8201-exec-3 p6spy 2022-01-25 10:39:03 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:39:03 INFO  Thresh-Server-System http-nio-8201-exec-3 p6spy 2022-01-25 10:39:03 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:39:03 INFO  Thresh-Server-System http-nio-8201-exec-3 p6spy 2022-01-25 10:39:03 | 耗时 1 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:39:03 INFO  Thresh-Server-System http-nio-8201-exec-3 p6spy 2022-01-25 10:39:03 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:39:03 INFO  Thresh-Server-System http-nio-8201-exec-3 p6spy 2022-01-25 10:39:03 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'MrZhang' GROUP BY days;
+2022-01-25 10:39:09 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:39:09 | 耗时 3 ms | SQL 语句：
+SELECT COUNT(1) FROM ( SELECT r.role_id roleId, r.role_name roleName, r.remark, r.create_time createTime, r.modify_time modifyTime, GROUP_CONCAT(rm.menu_id) menuIds FROM t_role r LEFT JOIN t_role_menu rm ON (r.role_id = rm.role_id) WHERE 1 = 1 GROUP BY r.role_id ) TOTAL;
+2022-01-25 10:39:09 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:39:09 | 耗时 2 ms | SQL 语句：
+SELECT r.role_id roleId, r.role_name roleName, r.remark, r.create_time createTime, r.modify_time modifyTime, GROUP_CONCAT(rm.menu_id) menuIds FROM t_role r LEFT JOIN t_role_menu rm ON (r.role_id = rm.role_id) WHERE 1 = 1 GROUP BY r.role_id ORDER BY createTime DESC LIMIT 0,10;
+2022-01-25 10:39:10 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 10:39:10 | 耗时 5 ms | SQL 语句：
+SELECT MENU_ID, ICON, ORDER_NUM, MENU_NAME, TYPE, PARENT_ID, PATH, COMPONENT, MODIFY_TIME, CREATE_TIME, PERMS FROM t_menu ORDER BY ORDER_NUM ASC;
+2022-01-25 10:39:10 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:39:10 | 耗时 8 ms | SQL 语句：
+SELECT DEPT_ID, dept_name, MODIFY_TIME, CREATE_TIME, ORDER_NUM, PARENT_ID FROM t_dept ORDER BY order_num ASC;
+2022-01-25 10:39:10 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:39:10 | 耗时 4 ms | SQL 语句：
+SELECT COUNT(1) FROM ( SELECT u.user_id userId, u.username, u.email, u.mobile, u.status, u.create_time createTime, u.ssex sex, u.dept_id deptId, u.last_login_time lastLoginTime, u.modify_time modifyTime, u.description, u.avatar, d.dept_name deptName, GROUP_CONCAT(r.role_id) roleId, GROUP_CONCAT(r.role_name) roleName FROM t_user u LEFT JOIN t_dept d ON (u.dept_id = d.dept_id) LEFT JOIN t_user_role ur ON (u.user_id = ur.user_id) LEFT JOIN t_role r ON (r.role_id = ur.role_id) WHERE 1 = 1 GROUP BY u.username, u.user_id, u.email, u.mobile, u.status, u.create_time, u.ssex, u.dept_id, u.last_login_time, u.modify_time, u.description, u.avatar ) TOTAL;
+2022-01-25 10:39:10 INFO  Thresh-Server-System http-nio-8201-exec-6 p6spy 2022-01-25 10:39:10 | 耗时 3 ms | SQL 语句：
+SELECT ROLE_ID, MODIFY_TIME, CREATE_TIME, ROLE_NAME, REMARK FROM t_role ORDER BY ROLE_ID ASC;
+2022-01-25 10:39:10 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 10:39:10 | 耗时 4 ms | SQL 语句：
+SELECT u.user_id userId, u.username, u.email, u.mobile, u.status, u.create_time createTime, u.ssex sex, u.dept_id deptId, u.last_login_time lastLoginTime, u.modify_time modifyTime, u.description, u.avatar, d.dept_name deptName, GROUP_CONCAT(r.role_id) roleId, GROUP_CONCAT(r.role_name) roleName FROM t_user u LEFT JOIN t_dept d ON (u.dept_id = d.dept_id) LEFT JOIN t_user_role ur ON (u.user_id = ur.user_id) LEFT JOIN t_role r ON (r.role_id = ur.role_id) WHERE 1 = 1 GROUP BY u.username, u.user_id, u.email, u.mobile, u.status, u.create_time, u.ssex, u.dept_id, u.last_login_time, u.modify_time, u.description, u.avatar ORDER BY userId LIMIT 0,10;
+2022-01-25 10:39:13 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 2022-01-25 10:39:13 | 耗时 2 ms | SQL 语句：
+SELECT DEPT_ID, user_id FROM t_user_data_permission WHERE (user_id = '1');
+2022-01-25 10:39:18 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 10:39:18 | 耗时 3 ms | SQL 语句：
+UPDATE t_user SET DESCRIPTION = '我是帅比作者。', MODIFY_TIME = '2022-01-25T10:39:18.373+0800', EMAIL = 'mrbird@qq.com', SSEX = '0', MOBILE = '17788888888', DEPT_ID = 2, AVATAR = 'gaOngJwsRYRaVAuXXcmB.png', STATUS = '1' WHERE USER_ID = 1;
+2022-01-25 10:39:18 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 10:39:18 | 耗时 4 ms | SQL 语句：
+DELETE FROM t_user_role WHERE (user_id IN ('1'));
+2022-01-25 10:39:18 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 10:39:18 | 耗时 4 ms | SQL 语句：
+DELETE FROM t_user_data_permission WHERE (user_id IN ('1'));
+2022-01-25 10:39:18 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 
+2022-01-25 10:39:18 INFO  Thresh-Server-System Thresh-Async-Thread1 p6spy 2022-01-25 10:39:18 | 耗时 9 ms | SQL 语句：
+INSERT INTO t_log (METHOD, CREATE_TIME, IP, LOCATION, TIME, PARAMS, OPERATION, USERNAME) VALUES ('com.zhang.thresh.server.system.controller.UserController.updateUser()', '2022-01-25T10:39:18.434+0800', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', 64, ' user: "SystemUser(userId=1, username=null, password=null, deptId=2, email=mrbird@qq.com, mobile=17788888888, status=1, createTime=null, modifyTime=Tue Jan 25 10:39:18 CST 2022, lastLoginTime=null, sex=0, avatar=gaOngJwsRYRaVAuXXcmB.png, description=我是帅比作者。, deptName=开发一部, createTimeFrom=null, createTimeTo=null, roleId=1, theme=null, roleName=管理员, deptIds=1,2,3,4,5,6)"', '修改用户', 'MrZhang');
+2022-01-25 10:39:18 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:39:18 | 耗时 5 ms | SQL 语句：
+SELECT COUNT(1) FROM ( SELECT u.user_id userId, u.username, u.email, u.mobile, u.status, u.create_time createTime, u.ssex sex, u.dept_id deptId, u.last_login_time lastLoginTime, u.modify_time modifyTime, u.description, u.avatar, d.dept_name deptName, GROUP_CONCAT(r.role_id) roleId, GROUP_CONCAT(r.role_name) roleName FROM t_user u LEFT JOIN t_dept d ON (u.dept_id = d.dept_id) LEFT JOIN t_user_role ur ON (u.user_id = ur.user_id) LEFT JOIN t_role r ON (r.role_id = ur.role_id) WHERE 1 = 1 GROUP BY u.username, u.user_id, u.email, u.mobile, u.status, u.create_time, u.ssex, u.dept_id, u.last_login_time, u.modify_time, u.description, u.avatar ) TOTAL;
+2022-01-25 10:39:18 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:39:18 | 耗时 3 ms | SQL 语句：
+SELECT u.user_id userId, u.username, u.email, u.mobile, u.status, u.create_time createTime, u.ssex sex, u.dept_id deptId, u.last_login_time lastLoginTime, u.modify_time modifyTime, u.description, u.avatar, d.dept_name deptName, GROUP_CONCAT(r.role_id) roleId, GROUP_CONCAT(r.role_name) roleName FROM t_user u LEFT JOIN t_dept d ON (u.dept_id = d.dept_id) LEFT JOIN t_user_role ur ON (u.user_id = ur.user_id) LEFT JOIN t_role r ON (r.role_id = ur.role_id) WHERE 1 = 1 GROUP BY u.username, u.user_id, u.email, u.mobile, u.status, u.create_time, u.ssex, u.dept_id, u.last_login_time, u.modify_time, u.description, u.avatar ORDER BY userId LIMIT 0,10;
+2022-01-25 10:39:21 INFO  Thresh-Server-System http-nio-8201-exec-3 p6spy 2022-01-25 10:39:21 | 耗时 2 ms | SQL 语句：
+SELECT COUNT(1) FROM ( SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ) TOTAL;
+2022-01-25 10:39:21 INFO  Thresh-Server-System http-nio-8201-exec-3 p6spy 2022-01-25 10:39:21 | 耗时 6 ms | SQL 语句：
+SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ORDER BY login_time DESC LIMIT 0,7;
+2022-01-25 10:39:21 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:39:21 | 耗时 4 ms | SQL 语句：
+SELECT DEPT_ID, dept_name, MODIFY_TIME, CREATE_TIME, ORDER_NUM, PARENT_ID FROM t_dept ORDER BY order_num ASC;
+2022-01-25 10:39:26 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 10:39:26 | 耗时 2 ms | SQL 语句：
+SELECT USER_ID, DESCRIPTION, PASSWORD, MODIFY_TIME, theme, EMAIL, SSEX AS sex, MOBILE, DEPT_ID, AVATAR, LAST_LOGIN_TIME, CREATE_TIME, STATUS, USERNAME FROM t_user WHERE (USERNAME = 'MrZhang');
+2022-01-25 10:39:34 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:39:34 | 耗时 2 ms | SQL 语句：
+SELECT USER_ID, DESCRIPTION, PASSWORD, MODIFY_TIME, theme, EMAIL, SSEX AS sex, MOBILE, DEPT_ID, AVATAR, LAST_LOGIN_TIME, CREATE_TIME, STATUS, USERNAME FROM t_user WHERE (USERNAME = 'MrZhang');
+2022-01-25 10:39:34 INFO  Thresh-Server-System http-nio-8201-exec-6 p6spy 2022-01-25 10:39:34 | 耗时 5 ms | SQL 语句：
+UPDATE t_user SET PASSWORD = '$2a$10$JgjAXNQh9.SqFQtdmvi25OP/ltmTcEOdLw2xd3aLkYVtzoFM7/kdS' WHERE (USERNAME = 'MrZhang');
+2022-01-25 10:39:34 INFO  Thresh-Server-System http-nio-8201-exec-6 p6spy 
+2022-01-25 10:42:10 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:42:10 | 耗时 3 ms | SQL 语句：
+SELECT COUNT(1) FROM ( SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ) TOTAL;
+2022-01-25 10:42:10 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:42:10 | 耗时 7 ms | SQL 语句：
+SELECT DEPT_ID, dept_name, MODIFY_TIME, CREATE_TIME, ORDER_NUM, PARENT_ID FROM t_dept ORDER BY order_num ASC;
+2022-01-25 10:42:10 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:42:10 | 耗时 7 ms | SQL 语句：
+SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ORDER BY login_time DESC LIMIT 0,7;
+2022-01-25 10:42:11 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:42:11 | 耗时 5 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:42:11 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:42:11 | 耗时 2 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:42:11 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:42:11 | 耗时 2 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:42:11 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:42:11 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:42:11 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:42:11 | 耗时 3 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'MrZhang' GROUP BY days;
+2022-01-25 10:48:57 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 2022-01-25 10:48:57 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:48:57 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 2022-01-25 10:48:57 | 耗时 6 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:48:57 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 2022-01-25 10:48:57 | 耗时 3 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:48:57 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 2022-01-25 10:48:57 | 耗时 2 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:48:57 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 2022-01-25 10:48:57 | 耗时 4 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'MrZhang' GROUP BY days;
+2022-01-25 10:49:02 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:49:02 | 耗时 6 ms | SQL 语句：
+SELECT COUNT(1) FROM ( SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ) TOTAL;
+2022-01-25 10:49:02 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:49:02 | 耗时 3 ms | SQL 语句：
+SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ORDER BY login_time DESC LIMIT 0,7;
+2022-01-25 10:49:03 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:49:03 | 耗时 2 ms | SQL 语句：
+SELECT DEPT_ID, dept_name, MODIFY_TIME, CREATE_TIME, ORDER_NUM, PARENT_ID FROM t_dept ORDER BY order_num ASC;
+2022-01-25 10:58:57 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 10:58:57 | 耗时 6 ms | SQL 语句：
+UPDATE t_user SET LAST_LOGIN_TIME = '2022-01-25T10:58:57.093+0800' WHERE (USERNAME = 'MrZhang');
+2022-01-25 10:58:57 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 
+2022-01-25 10:58:57 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 10:58:57 | 耗时 11 ms | SQL 语句：
+INSERT INTO t_login_log (`SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME) VALUES ('Windows 10', '2022-01-25T10:58:57.124+0800', 'Chrome 97', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', 'MrZhang');
+2022-01-25 10:58:57 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:58:57 | 耗时 3 ms | SQL 语句：
+SELECT m.* FROM t_menu m WHERE m.type <> 1 AND m.MENU_ID IN (SELECT DISTINCT rm.menu_id FROM t_role_menu rm LEFT JOIN t_role r ON (rm.role_id = r.role_id) LEFT JOIN t_user_role ur ON (ur.role_id = r.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) WHERE u.username = 'MrZhang') ORDER BY m.order_num;
+2022-01-25 10:58:57 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:58:57 | 耗时 3 ms | SQL 语句：
+SELECT DISTINCT m.perms FROM t_role r LEFT JOIN t_user_role ur ON (r.role_id = ur.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) LEFT JOIN t_role_menu rm ON (rm.role_id = r.role_id) LEFT JOIN t_menu m ON (m.menu_id = rm.menu_id) WHERE u.username = 'MrZhang' AND m.perms IS NOT NULL AND m.perms <> '';
+2022-01-25 10:58:57 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:58:57 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:58:57 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:58:57 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:58:57 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:58:57 | 耗时 1 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:58:57 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:58:57 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:58:57 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:58:57 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'MrZhang' GROUP BY days;
+2022-01-25 10:59:02 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:59:02 | 耗时 3 ms | SQL 语句：
+SELECT COUNT(1) FROM ( SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ) TOTAL;
+2022-01-25 10:59:02 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 10:59:02 | 耗时 2 ms | SQL 语句：
+SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ORDER BY login_time DESC LIMIT 0,7;
+2022-01-25 10:59:02 INFO  Thresh-Server-System http-nio-8201-exec-1 p6spy 2022-01-25 10:59:02 | 耗时 2 ms | SQL 语句：
+SELECT DEPT_ID, dept_name, MODIFY_TIME, CREATE_TIME, ORDER_NUM, PARENT_ID FROM t_dept ORDER BY order_num ASC;
+2022-01-25 10:59:51 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 2022-01-25 10:59:51 | 耗时 6 ms | SQL 语句：
+UPDATE t_user SET LAST_LOGIN_TIME = '2022-01-25T10:59:51.230+0800' WHERE (USERNAME = 'MrZhang');
+2022-01-25 10:59:51 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 
+2022-01-25 10:59:51 INFO  Thresh-Server-System http-nio-8201-exec-10 p6spy 2022-01-25 10:59:51 | 耗时 6 ms | SQL 语句：
+INSERT INTO t_login_log (`SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME) VALUES ('Windows 10', '2022-01-25T10:59:51.248+0800', 'Chrome 97', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', 'MrZhang');
+2022-01-25 10:59:51 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 10:59:51 | 耗时 3 ms | SQL 语句：
+SELECT m.* FROM t_menu m WHERE m.type <> 1 AND m.MENU_ID IN (SELECT DISTINCT rm.menu_id FROM t_role_menu rm LEFT JOIN t_role r ON (rm.role_id = r.role_id) LEFT JOIN t_user_role ur ON (ur.role_id = r.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) WHERE u.username = 'MrZhang') ORDER BY m.order_num;
+2022-01-25 10:59:51 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 10:59:51 | 耗时 3 ms | SQL 语句：
+SELECT DISTINCT m.perms FROM t_role r LEFT JOIN t_user_role ur ON (r.role_id = ur.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) LEFT JOIN t_role_menu rm ON (rm.role_id = r.role_id) LEFT JOIN t_menu m ON (m.menu_id = rm.menu_id) WHERE u.username = 'MrZhang' AND m.perms IS NOT NULL AND m.perms <> '';
+2022-01-25 10:59:51 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:59:51 | 耗时 2 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 10:59:51 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:59:51 | 耗时 2 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:59:51 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:59:51 | 耗时 1 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 10:59:51 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:59:51 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 10:59:51 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 10:59:51 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'MrZhang' GROUP BY days;
+2022-01-25 10:59:59 INFO  Thresh-Server-System http-nio-8201-exec-7 p6spy 2022-01-25 10:59:59 | 耗时 2 ms | SQL 语句：
+SELECT DEPT_ID, dept_name, MODIFY_TIME, CREATE_TIME, ORDER_NUM, PARENT_ID FROM t_dept ORDER BY order_num ASC;
+2022-01-25 10:59:59 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:59:59 | 耗时 3 ms | SQL 语句：
+SELECT COUNT(1) FROM ( SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ) TOTAL;
+2022-01-25 10:59:59 INFO  Thresh-Server-System http-nio-8201-exec-2 p6spy 2022-01-25 10:59:59 | 耗时 5 ms | SQL 语句：
+SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ORDER BY login_time DESC LIMIT 0,7;
+2022-01-25 11:00:39 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 11:00:39 | 耗时 11 ms | SQL 语句：
+UPDATE t_user SET LAST_LOGIN_TIME = '2022-01-25T11:00:39.777+0800' WHERE (USERNAME = 'MrZhang');
+2022-01-25 11:00:39 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 
+2022-01-25 11:00:39 INFO  Thresh-Server-System http-nio-8201-exec-4 p6spy 2022-01-25 11:00:39 | 耗时 17 ms | SQL 语句：
+INSERT INTO t_login_log (`SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME) VALUES ('Windows 10', '2022-01-25T11:00:39.812+0800', 'Chrome 97', '127.0.0.1', '内网IP|0|0|内网IP|内网IP', 'MrZhang');
+2022-01-25 11:00:39 INFO  Thresh-Server-System http-nio-8201-exec-6 p6spy 2022-01-25 11:00:39 | 耗时 9 ms | SQL 语句：
+SELECT m.* FROM t_menu m WHERE m.type <> 1 AND m.MENU_ID IN (SELECT DISTINCT rm.menu_id FROM t_role_menu rm LEFT JOIN t_role r ON (rm.role_id = r.role_id) LEFT JOIN t_user_role ur ON (ur.role_id = r.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) WHERE u.username = 'MrZhang') ORDER BY m.order_num;
+2022-01-25 11:00:39 INFO  Thresh-Server-System http-nio-8201-exec-6 p6spy 2022-01-25 11:00:39 | 耗时 7 ms | SQL 语句：
+SELECT DISTINCT m.perms FROM t_role r LEFT JOIN t_user_role ur ON (r.role_id = ur.role_id) LEFT JOIN t_user u ON (u.user_id = ur.user_id) LEFT JOIN t_role_menu rm ON (rm.role_id = r.role_id) LEFT JOIN t_menu m ON (m.menu_id = rm.menu_id) WHERE u.username = 'MrZhang' AND m.perms IS NOT NULL AND m.perms <> '';
+2022-01-25 11:00:40 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 11:00:40 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log;
+2022-01-25 11:00:40 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 11:00:40 | 耗时 1 ms | SQL 语句：
+SELECT count(1) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 11:00:40 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 11:00:40 | 耗时 2 ms | SQL 语句：
+SELECT count(DISTINCT (ip)) FROM t_login_log WHERE login_time BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 1 DAY);
+2022-01-25 11:00:40 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 11:00:40 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 GROUP BY days;
+2022-01-25 11:00:40 INFO  Thresh-Server-System http-nio-8201-exec-9 p6spy 2022-01-25 11:00:40 | 耗时 1 ms | SQL 语句：
+SELECT date_format(l.login_time, '%m-%d') days, count(1) count FROM (SELECT * FROM t_login_log WHERE date_sub(curdate(), INTERVAL 10 day) <= date(login_time)) AS l WHERE 1 = 1 AND l.username = 'MrZhang' GROUP BY days;
+2022-01-25 11:00:43 INFO  Thresh-Server-System http-nio-8201-exec-5 p6spy 2022-01-25 11:00:43 | 耗时 6 ms | SQL 语句：
+SELECT DEPT_ID, dept_name, MODIFY_TIME, CREATE_TIME, ORDER_NUM, PARENT_ID FROM t_dept ORDER BY order_num ASC;
+2022-01-25 11:00:43 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 11:00:43 | 耗时 6 ms | SQL 语句：
+SELECT COUNT(1) FROM ( SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ) TOTAL;
+2022-01-25 11:00:43 INFO  Thresh-Server-System http-nio-8201-exec-8 p6spy 2022-01-25 11:00:43 | 耗时 3 ms | SQL 语句：
+SELECT ID, `SYSTEM`, LOGIN_TIME, BROWSER, IP, LOCATION, USERNAME FROM t_login_log WHERE (USERNAME = 'mrzhang') ORDER BY login_time DESC LIMIT 0,7;
+2022-01-25 12:38:51 INFO  Thresh-Server-System nioEventLoopGroup-2-1 com.codingapi.txlcn.txmsg.netty.impl.NettyRpcClientInitializer Try connect socket(/0.0.0.0:8888) - count 1

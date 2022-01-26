@@ -15,9 +15,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableDistributedTransaction
 @MapperScan("com.zhang.thresh.server.test.mapper")
 public class ThreshServerTestApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ThreshServerTestApplication.class, args);
     }
-
 }
