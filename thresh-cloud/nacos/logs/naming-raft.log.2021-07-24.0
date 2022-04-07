@@ -1,0 +1,16 @@
+2021-07-24 23:56:03,843 INFO raft peers changed: [Member{ip='192.168.8.201', port=8001, state=UP, extendInfo={raftPort=7001, version=2.0.0}}]
+
+2021-07-24 23:56:03,883 INFO initializing Raft sub-system
+
+2021-07-24 23:56:03,884 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2021-07-24 23:56:03,887 INFO cache loaded, datum count: 0, current term: 0
+
+2021-07-24 23:56:03,887 INFO finish to load data from disk, cost: 4 ms.
+
+2021-07-24 23:56:03,891 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2021-07-24 23:56:04,018 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2021-07-24 23:56:04,610 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+

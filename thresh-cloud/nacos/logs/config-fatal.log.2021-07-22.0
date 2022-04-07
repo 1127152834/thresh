@@ -1,0 +1,15 @@
+2021-07-22 13:46:34,632 ERROR [db-error] master db  down.
+
+2021-07-22 17:17:38,365 ERROR [master-db] master db not found.
+
+2021-07-22 17:17:43,434 ERROR [db-error] master db  down.
+
+2021-07-22 17:17:44,762 WARN isQuickStart:false
+
+2021-07-22 17:17:44,774 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2021-07-22 17:21:50,017 WARN [master-db] jdbc:mysql://localhost:3306/febs_nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2021-07-22 17:21:51,125 WARN isQuickStart:false
+
