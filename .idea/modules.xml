@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server-generator/thresh-server-generator.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server-generator/thresh-server-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server-job/thresh-server-job.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server-job/thresh-server-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server-scanner/thresh-server-scanner.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server-scanner/thresh-server-scanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server-system/thresh-server-system.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server-system/thresh-server-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-server/thresh-server-test/thresh-server-test.iml" filepath="$PROJECT_DIR$/thresh-server/thresh-server-test/thresh-server-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/thresh-tx-manager/thresh-tx-manager.iml" filepath="$PROJECT_DIR$/thresh-tx-manager/thresh-tx-manager.iml" />

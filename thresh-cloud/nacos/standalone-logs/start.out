@@ -1,0 +1,82 @@
+
+         ,--.
+       ,--.'|
+   ,--,:  : |                                           Nacos 1.1.4
+,`--.'`|  ' :                       ,---.               Running in stand alone mode, All function modules
+|   :  :  | |                      '   ,'\   .--.--.    Port: 8001
+:   |   \ | :  ,--.--.     ,---.  /   /   | /  /    '   Pid: 26
+|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://e0aefee2707e:8001/nacos/index.html
+'   ' ;.    ;.--.  .-. | /    / ''   | |: :|  :  ;_
+|   | | \   | \__\/: . ..    ' / '   | .; : \  \    `.      https://nacos.io
+'   : |  ; .' ," .--.; |'   ; :__|   :    |  `----.   \
+|   | '`--'  /  /  ,.  |'   | '.'|\   \  /  /  /`--'  /
+'   : |     ;  :   .'   \   :    : `----'  '--'.     /
+;   |.'     |  ,     .-./\   \  /            `--'---'
+'---'        `--`---'     `----'
+
+2022-04-07 18:19:27,055 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$c2b84ff7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-04-07 18:19:27,256 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-04-07 18:19:27,271 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@23e84203' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-04-07 18:19:27,283 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$e78cf2a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-04-07 18:19:27,297 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2022-04-07 18:19:28,275 INFO Tomcat initialized with port(s): 8001 (http)
+
+2022-04-07 18:19:28,542 INFO Root WebApplicationContext: initialization completed in 5299 ms
+
+2022-04-07 18:19:33,452 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2022-04-07 18:19:34,034 INFO Adding welcome page: class path resource [static/index.html]
+
+2022-04-07 18:19:34,774 INFO Creating filter chain: Ant [pattern='/'], []
+
+2022-04-07 18:19:34,779 INFO Creating filter chain: Ant [pattern='/error'], []
+
+2022-04-07 18:19:34,783 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2022-04-07 18:19:34,786 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2022-04-07 18:19:34,789 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2022-04-07 18:19:34,792 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2022-04-07 18:19:34,796 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2022-04-07 18:19:34,799 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2022-04-07 18:19:34,803 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2022-04-07 18:19:34,805 INFO Creating filter chain: Ant [pattern='/console-ui/public/**'], []
+
+2022-04-07 18:19:34,808 INFO Creating filter chain: Ant [pattern='/v1/auth/**'], []
+
+2022-04-07 18:19:34,811 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2022-04-07 18:19:34,814 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2022-04-07 18:19:34,817 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2022-04-07 18:19:34,899 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42f48531, org.springframework.security.web.context.SecurityContextPersistenceFilter@788fcafb, org.springframework.security.web.header.HeaderWriterFilter@7c209437, org.springframework.security.web.authentication.logout.LogoutFilter@63b1d4fa, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@a776e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25e2a451, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fc0cc3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@792bbc74, org.springframework.security.web.session.SessionManagementFilter@7e928e2f, org.springframework.security.web.access.ExceptionTranslationFilter@2cae1042, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b444398]
+
+2022-04-07 18:19:35,164 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2022-04-07 18:19:35,233 INFO Initializing ExecutorService 'taskScheduler'
+
+2022-04-07 18:19:35,427 INFO Tomcat started on port(s): 8001 (http) with context path '/nacos'
+
+2022-04-07 18:19:35,460 INFO Nacos Log files: /home/nacos/logs/
+
+2022-04-07 18:19:35,463 INFO Nacos Conf files: /home/nacos/conf/
+
+2022-04-07 18:19:35,465 INFO Nacos Data files: /home/nacos/data/
+
+2022-04-07 18:19:35,468 INFO Nacos started successfully in stand alone mode.
+
+2022-04-07 18:19:37,544 INFO Initializing Servlet 'dispatcherServlet'
+
+2022-04-07 18:19:37,570 INFO Completed initialization in 23 ms
+

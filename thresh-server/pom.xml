@@ -9,7 +9,6 @@
         <relativePath>../thresh-cloud/pom.xml</relativePath>
     </parent>
 
-    <groupId>com.zhang.thresh</groupId>
     <artifactId>thresh-server</artifactId>
     <version>2.2-RELEASE</version>
     <name>thresh-server</name>
@@ -20,10 +19,11 @@
     </properties>
 
     <modules>
-<!--        <module>thresh-server-system</module>-->
-<!--        <module>thresh-server-test</module>-->
-<!--        <module>thresh-server-generator</module>-->
-<!--        <module>thresh-server-job</module>-->
+        <module>thresh-server-system</module>
+        <module>thresh-server-test</module>
+        <module>thresh-server-generator</module>
+        <module>thresh-server-job</module>
+        <module>thresh-server-scanner</module>
     </modules>
 
     <dependencies>

@@ -1,0 +1,172 @@
+version: '3'
+
+services:
+  nacos:
+    image: nacos/nacos-server:1.3.1
+    container_name: nacos
+    environment:
+      PREFER_HOST_MODE: 127.0.0.1 #如果支持主机名可以使用hostname,否则使用ip，默认也是ip
+      SPRING_DATASOURCE_PLATFORM: mysql #数据源平台 仅支持mysql或不保存empty
+      MODE: standalone
+      MYSQL_SERVICE_HOST: 127.0.0.1
+      MYSQL_SERVICE_DB_NAME: thresh_nacos
+      MYSQL_SERVICE_PORT: 3306
+      MYSQL_SERVICE_USER: root
+      MYSQL_SERVICE_PASSWORD: Zhang@8324761
+      NACOS_APPLICATION_PORT: 8001
+      JVM_XMS: 512m
+      JVM_MMS: 320m
+    volumes:
+      - /Users/zhangyu/Documents/MyselfGit/Thresh/third-part/nacos/logs/:/home/nacos/logs
+      - /Users/zhangyu/Documents/MyselfGit/Thresh/third-part/nacos/conf/custom.properties:/home/nacos/init.d/custom.properties
+    ports:
+      - "8001:8001"
+    restart: on-failure
+  thresh-admin:
+    image: zhangtiancheng/admin
+    container_name: thresh-admin
+    volumes:
+      - "/thresh/thresh-cloud/logs:/log"
+    command:
+      - "--nacos.url=nacos"
+    environment:
+      - "TZ=Asia/Shanghai"
+    ports:
+      - "8401:8401"
+    restart: on-failure
+  thresh-gateway:
+    image: zhangtiancheng/gateway
+    container_name: thresh-gateway
+    volumes:
+      - "/thresh/thresh-cloud/logs:/log"
+    command:
+      - "--thresh-admin=thresh-admin"
+      - "--mongo.url=127.0.0.1"
+      - "--nacos.url=nacos"
+      - "--redis.url=127.0.0.1"
+    environment:
+      - "TZ=Asia/Shanghai"
+    ports:
+      - "8301:8301"
+    restart: on-failure
+    depends_on:
+      - nacos
+  thresh-auth:
+    image: zhangtiancheng/auth
+    container_name: thresh-auth
+    volumes:
+      - "/thresh/thresh-cloud/logs:/log"
+    command:
+      - "--thresh-admin=thresh-admin"
+      - "--nacos.url=nacos"
+      - "--thresh-gateway=thresh-gateway"
+      - "--mysql.url=127.0.0.1"
+      - "--redis.url=127.0.0.1"
+    environment:
+      - "TZ=Asia/Shanghai"
+    ports:
+      - "8101:8101"
+    restart: on-failure
+    depends_on:
+      - nacos
+  thresh-server-system:
+    image: zhangtiancheng/server-system
+    container_name: thresh-server-system
+    volumes:
+      - "/thresh/thresh-cloud/logs:/log"
+    command:
+      - "--thresh-admin=thresh-admin"
+      - "--thresh-gateway=thresh-gateway"
+      - "--nacos.url=nacos"
+      - "--mysql.url=127.0.0.1"
+      - "--thresh-tx-manager=thresh-tx-manager"
+      - "--rabbitmq.url=127.0.0.1"
+    environment:
+      - "TZ=Asia/Shanghai"
+    ports:
+      - "8201:8201"
+    restart: on-failure
+    depends_on:
+      - nacos
+      - thresh-tx-manager
+  thresh-server-test:
+    image: zhangtiancheng/server-test
+    container_name: thresh-server-test
+    volumes:
+      - "/thresh/thresh-cloud/logs:/log"
+    command:
+      - "--nacos.url=nacos"
+      - "--thresh-admin=thresh-admin"
+      - "--mysql.url=127.0.0.1"
+      - "--thresh-tx-manager=thresh-tx-manager"
+      - "--thresh-gateway=thresh-gateway"
+    environment:
+      - "TZ=Asia/Shanghai"
+    ports:
+      - "8202:8202"
+    restart: on-failure
+    depends_on:
+      - nacos
+      - thresh-tx-manager
+  thresh-server-generator:
+    image: zhangtiancheng/server-generator
+    container_name: thresh-server-generator
+    volumes:
+      - "/thresh/thresh-cloud/logs:/log"
+    command:
+      - "--nacos.url=nacos"
+      - "--thresh-admin=thresh-admin"
+      - "--mysql.url=127.0.0.1"
+      - "--thresh-gateway=thresh-gateway"
+    environment:
+      - "TZ=Asia/Shanghai"
+    ports:
+      - "8203:8203"
+    restart: on-failure
+    depends_on:
+      - nacos
+  thresh-server-job:
+    image: zhangtiancheng/server-job
+    container_name: thresh-server-job
+    volumes:
+      - "/thresh/thresh-cloud/logs:/log"
+    command:
+      - "--nacos.url=nacos"
+      - "--thresh-admin=thresh-admin"
+      - "--mysql.url=127.0.0.1"
+      - "--thresh-gateway=thresh-gateway"
+    environment:
+      - "TZ=Asia/Shanghai"
+    ports:
+      - "8204:8204"
+    restart: on-failure
+    depends_on:
+      - nacos
+  thresh-tx-manager:
+    image: zhangtiancheng/tx-manager
+    container_name: thresh-tx-manager
+    volumes:
+      - "/thresh/thresh-cloud/logs:/log"
+    command:
+      - "--nacos.url=nacos"
+      - "--thresh-admin=thresh-admin"
+      - "--mysql.url=127.0.0.1"
+      - "--redis.url=127.0.0.1"
+    environment:
+      - "TZ=Asia/Shanghai"
+    ports:
+      - "8501:8501"
+      - "8888:8888"
+    restart: on-failure
+    depends_on:
+      - nacos
+  thresh-cloud-web:
+    image: zhangtiancheng/web-backend
+    container_name: thresh-cloud-web
+    volumes:
+      - "/thresh/thresh-cloud/logs:/log"
+    environment:
+      - "TZ=Asia/Shanghai"
+    ports:
+      - "9527:80"
+    restart: on-failure

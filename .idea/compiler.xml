@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="thresh-server-job" />
         <module name="thresh-common-logging-starter" />
+        <module name="thresh-server-scanner" />
         <module name="thresh-server-system" />
         <module name="thresh-server-generator" />
         <module name="thresh-common-doc-gateway-starter" />
@@ -17,8 +18,8 @@
         <module name="thresh-server-test" />
         <module name="thresh-tx-manager" />
         <module name="thresh-common-doc" />
-        <module name="thresh-apm-admin" />
         <module name="thresh-common-datasource-starter" />
+        <module name="thresh-apm-admin" />
         <module name="thresh-gateway" />
         <module name="thresh-common-redis-starter" />
         <module name="thresh-common-security-starter" />
@@ -43,6 +44,7 @@
       <module name="thresh-server" target="1.8" />
       <module name="thresh-server-generator" target="1.8" />
       <module name="thresh-server-job" target="1.8" />
+      <module name="thresh-server-scanner" target="1.8" />
       <module name="thresh-server-system" target="1.8" />
       <module name="thresh-server-test" target="1.8" />
       <module name="thresh-tx-manager" target="1.8" />
@@ -67,6 +69,7 @@
       <module name="thresh-server" options="-parameters" />
       <module name="thresh-server-generator" options="-parameters" />
       <module name="thresh-server-job" options="-parameters" />
+      <module name="thresh-server-scanner" options="-parameters" />
       <module name="thresh-server-system" options="-parameters" />
       <module name="thresh-server-test" options="-parameters" />
       <module name="thresh-tx-manager" options="-parameters" />

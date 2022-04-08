@@ -1,12 +1,12 @@
 spring:
   application:
-    name: Thresh-Server-Test
+    name: Thresh-Server-Scanner
   cloud:
     nacos:
       config:
         server-addr: ${nacos.url}:8001
         group: DEFAULT_GROUP
-        prefix: thresh-server-test
+        prefix: thresh-server-scanner
         file-extension: yaml
       discovery:
         server-addr: ${nacos.url}:8001

@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/thresh-server/thresh-server-job/pom.xml" />
         <option value="$PROJECT_DIR$/thresh-server/thresh-server-generator/pom.xml" />
         <option value="$PROJECT_DIR$/thresh-server/thresh-server-test/pom.xml" />
+        <option value="$PROJECT_DIR$/thresh-server/thresh-server-scanner/pom.xml" />
       </list>
     </option>
   </component>

@@ -23,6 +23,7 @@ public class RouteUser {
     private String id;
 
     private String username;
+
     @JsonIgnore
     private String password;
 

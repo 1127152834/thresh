@@ -24,5 +24,4 @@ public class FallbackController {
         log.error("{}，目标微服务：{}", response, name);
         return Mono.just(new ThreshResponse().message(response));
     }
-
 }
